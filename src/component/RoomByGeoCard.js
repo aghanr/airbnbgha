@@ -9,6 +9,6 @@ export default function RoomByGeoCard({room}){
                 <td>{room.name}</td>
             </tr>
         </table>
-        <a className="buttonRoomByGeoCard" target="_blank" href={room.url}>Lihat Web</a>
+        <a className="buttonRoomByGeoCard" target="_blank" rel="noreferrer" href={room.url}>Lihat Web</a>
     </div>)
 }

@@ -1,5 +1,4 @@
 import "./RoomByLocCard.css"
-import { Link } from "react-router-dom";
 
 export default function RoomByLocCard({room}){
    return ( <div className="roomByLocCard">
@@ -10,6 +9,6 @@ export default function RoomByLocCard({room}){
                 <td>{room.name}</td>
             </tr>
         </table>
-        <a className="buttonRoomByLocCard" target="_blank" href={room.url}>Lihat Web</a>
+        <a className="buttonRoomByLocCard" target="_blank" rel="noreferrer" href={room.url}>Lihat Web</a>
     </div>)
 }
