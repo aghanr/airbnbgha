@@ -1,5 +1,4 @@
 import "./RoomByGeoCard.css"
-import { Link } from "react-router-dom";
 
 export default function RoomByGeoCard({room}){
    return ( <div className="roomByGeoCard">
