@@ -1,4 +1,3 @@
-import { useNavigate } from 'react-router-dom';
 import Layout from "../component/Layout";
 import Input from "../component/Input";
 import ButtonPrimary from "../component/ButtonPrimary";
@@ -9,7 +8,6 @@ import axios from 'axios';
 import LocationCard from '../component/LocationCard';
 
 export default function Location(){
-    const navigate = useNavigate(); 
     const [data,setData] = useState(null);
     const [location,setLocation] = useState(null);
     const [isLoading,setIsLoading] = useState(false);
