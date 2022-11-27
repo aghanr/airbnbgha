@@ -1,0 +1,16 @@
+.contentRoomByLoc{
+    padding-top: 120px;
+    text-align: center;
+}
+
+.contentRoomByLocImg{
+    width: 512px;
+}
+
+@media screen and (min-width:768px) {
+    .contentRoomByLoc{
+        padding-top: 10px;
+        width: 40%;
+        margin: auto;
+    }
+}

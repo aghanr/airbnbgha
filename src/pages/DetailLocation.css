@@ -1,0 +1,26 @@
+.contentDetailLocation{
+    padding-top: 120px;
+    text-align: center;
+}
+
+.contentDetailLocationImg{
+    width: 512px;
+}
+
+.cardDetailLocation{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #585e84;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 14px;
+}
+
+@media screen and (min-width:768px) {
+    .contentDetailLocation{
+        padding-top: 10px;
+        width: 40%;
+        margin: auto;
+    }
+}

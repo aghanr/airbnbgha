@@ -1,0 +1,16 @@
+.contentRoomByGeo{
+    padding-top: 120px;
+    text-align: center;
+}
+
+.contentRoomByGeoImg{
+    width: 512px;
+}
+
+@media screen and (min-width:768px) {
+    .contentRoomByGeo{
+        padding-top: 10px;
+        width: 40%;
+        margin: auto;
+    }
+}
