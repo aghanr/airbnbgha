@@ -10,9 +10,8 @@ export default function Welcome(){
         <Layout>
             <div className="contentWelcome">
                 <img src="/images/airbnb.png" className="contentWelcomeImg" alt="airbnb"></img>
-                <h2 className="contentWelcomeTitle">AIRBNBGHA</h2>
                 <Gap
-                    height={120}
+                    height={100}
                 />
                <LinkPrimary
                     url="location"
