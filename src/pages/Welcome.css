@@ -17,7 +17,9 @@
     .contentWelcome{
         padding-top: 10px;
     }
-
+    .contentWelcomeImg{
+        width: 300px
+    }
     .contentWelcomeBody{
         margin: auto;
         width: 50%;
