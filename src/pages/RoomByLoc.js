@@ -63,12 +63,14 @@ export default function RoomByLoc(){
                 />
                 <Gap height={15}/>
                 <Input 
+                    type = "date"
                     label="Tanggal Check In" 
                     placeholder="Masukkan Tanggal Check In Y-m-d" 
                     onChange={handleFilterTglCheckIn}    
                 />
                 <Gap height={15}/>
                 <Input 
+                    type = "date"
                     label="Tanggal Check Out" 
                     placeholder="Masukkan Tanggal Check Out Y-m-d" 
                     onChange={handleFilterTglCheckOut}    

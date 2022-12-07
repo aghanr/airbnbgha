@@ -29,7 +29,7 @@ export default function Welcome(){
                 />
                <LinkPrimary
                     url="/room_by_geo"
-                    text="Cari Kamar Berdasar Geo Koordinat"
+                    text="Cari Kamar Berdasar Geolokasi"
                 />
                 <Gap
                     height={10}
